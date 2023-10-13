@@ -1,0 +1,29 @@
+{
+  "name": "crud_operation",
+  "version": "1.0.0",
+  "description": "CRUD operation task for KodeCamp 3 BE NodeJs beginner level.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "serve": "node index"
+  },
+  "keywords": [
+    "create",
+    "read",
+    "update",
+    "delete"
+  ],
+  "author": "Imole",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.3"
+  }
+}
